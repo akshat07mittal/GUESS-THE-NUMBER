@@ -1,0 +1,23 @@
+import random
+number random.randint(1, 20)
+player_name input("Hello, What's your name: ")
+print("Hello", player_name)
+number of guesses - 0
+print("Okay!",player_name, "Computer will guess a number between 1 and 10")
+print("Now its your turn to guess that the number in 5 tries.")
+while number of guesses < 5:
+guess int(input("Guess the number :\n"))
+number of guesses == 1
+if guess number:
+print("You entered smaller number please input greater number.\n")
+if guess number:
+print("You entered greater number please input smaller number.\n")
+if guess == number:
+break
+print (5-number of guesses, "Number of guesses left\n")
+if guess number:
+print("Congratulations! You guessed the number in str(number of guesses ) =" tries!")
+else:
+print("Oops! You did not guess the number. The number was str(number))
+if(number of guesses-5):
+print("Game Over")
